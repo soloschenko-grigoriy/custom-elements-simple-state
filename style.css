@@ -1,0 +1,26 @@
+x-form input{
+    width: 200px;
+    height: 20px;
+}
+x-form.hasError input {
+    border-color: red;
+    color:red;
+}
+x-form li {
+    width: 200px;
+    height: 30px;
+    list-style: none;
+}
+x-form li span {
+    min-width: 100px;
+    display: inline-block;
+}
+x-form li a {
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+}
+x-form small{
+    display: block;
+    color: #ccc;
+}
